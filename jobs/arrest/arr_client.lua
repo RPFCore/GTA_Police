@@ -1,16 +1,4 @@
--- W A R N I N G ! --
---THIS SCRIPT OFTEN DOESN'T WORK WHEN YOU HAVE MORE THAN 1 PERSON ON THE SERVER (probably something to do with player's relationship group... and most of the stuff being clientside)
-
--- common issues (most of them to do with the game not properly syncing the script for all of the players)
---   * the script glitches out in unpredictable ways
---   * /book won't work sometimes
---   * some animations (walking with cuffs) may not be seen by other players
---   * peds making surprised gestures while being detained
---   * peds deciding to just run away from you
---   * (rare, when spamming e) peds will run away in fear, you won't be able to arrest them again.
---   * peds will enter the second seat (instead of sitting in the backseat)
---   * /secure freezes players inside the vehicle (can be fixed, just need to check if the ped is a player or not)
-
+ 
 local spawnDistance = 50 	--	Default 50
 							---								---
 local drivingStyle = 1074528293 --	**c  - "Normal"**
